@@ -92,7 +92,7 @@ function submitReview() {
 
   const newReview = { title, text, rating };
 
-  fetch('https://your-firebase-app.firebaseio.com/reviews.json', {
+  const FIREBASE_URL = 'https://book-website-7bfc4-default-rtdb.asia-southeast1.firebasedatabase.app';
     method: "POST",
     body: JSON.stringify(newReview)
   }).then(() => {
