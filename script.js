@@ -1,3 +1,5 @@
+const FIREBASE_URL = 'https://book-website-7bfc4-default-rtdb.asia-southeast1.firebasedatabase.app';
+
 const data = {
   1: {
     "국어": [
