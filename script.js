@@ -25,7 +25,7 @@ let selectedGrade = null;
 let reviews = [];
 
 function loadReviews() {
-  fetch('https://your-firebase-app.firebaseio.com/reviews.json')
+  fetch('https://book-website-7bfc4-default-rtdb.asia-southeast1.firebasedatabase.app/reviews.json')
     .then(res => res.json())
     .then(data => {
       reviews = Object.values(data || {});
